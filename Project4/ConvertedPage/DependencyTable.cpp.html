@@ -1,0 +1,172 @@
+<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="JS+CSS/CSSsheet.css" />
+    <script src="JS+CSS/ToggleHidden.js"></script>
+</head>
+<body>
+    <h3>Project #4 Display</h3>
+    <div class="button">
+        <button id="CommentButton" onclick="ToggleHidden('Comment')" style="color:green;">Hide Comment</button>
+        <button id="ClassButton" onclick="ToggleHidden('Class')" style="color:royalblue;">Hide Class</button>
+        <button id="FunctionButton" onclick="ToggleHidden('Function')" style="color:mediumslateblue;">Hide Function</button>
+    </div>
+	
+      <h4>
+        Dependency Link:  <a href="DependencyTable.h.html">DependencyTable.h</a> <a href="ErrorPage/404NotFound.html">Logger.h</a>
+    </h4>
+    <pre>
+<div class = "Comment">///////////////////////////////////////////////////////////////////////////</div>
+<div class = "Comment">// DependencyTable.cpp : defines DependencyTable.h functions             //</div>
+<div class = "Comment">// ver 1.0                                                               //</div>
+<div class = "Comment">//                                                                       // </div>
+<div class = "Comment">// Application   : OOD-S19 Instructor Solution                           //</div>
+<div class = "Comment">// Platform      : Visual Studio Community 2017, Windows 10 Pro x64      //</div>
+<div class = "Comment">// Author        : Ammar Salman, Syracuse University                     //</div>
+<div class = "Comment">//                 313/788-4694, assalman@syr.edu                        //</div>
+<div class = "Comment">///////////////////////////////////////////////////////////////////////////</div>
+
+#include "DependencyTable.h"
+#include "../Logger/Logger.h"
+#include &lt;sstream&gt;
+#include &lt;iostream&gt;
+
+using namespace Logging;
+
+namespace Convert {
+
+	<div class = "Comment">// -----&lt; default ctor &gt;---------------------------------------------------</div>
+	DependencyTable::DependencyTable() <div class = "Function">{
+	}</div>
+
+	<div class = "Comment">// -----&lt; files initializer ctor &gt;-----------------------------------------</div>
+	<div class = "Comment">/* sets the keys for the undordered map */</div>
+	DependencyTable::DependencyTable(const files & list)
+	<div class = "Function">{
+		table_.reserve(list.size()); <div class = "Comment">// improves performance </div>
+		for (auto file : list)
+			table_[file];
+	}</div>
+
+	<div class = "Comment">// -----&lt; dtor - used only for logging &gt;-----------------------------------</div>
+	DependencyTable::~DependencyTable() <div class = "Function">{
+	}</div>
+
+	<div class = "Comment">// -----&lt; has function - searches map for given key &gt;----------------------</div>
+	bool DependencyTable::has(const std::string & file)
+	<div class = "Function">{
+		return table_.find(file) != table_.end();
+	}</div>
+
+	<div class = "Comment">// -----&lt; add dependency function - adds filename to key's vector &gt;--------</div>
+	void DependencyTable::addDependency(file filename, file dependency)
+	<div class = "Function">{
+		<div class = "Comment">//LoggerDebug::write("\n  Adding dependency from " + filename + " to " + dependency);</div>
+		<div class = "Comment">// this will create entry if key didnt exists in the map</div>
+		DependencyTable::dependencies & deps = table_[filename];
+		auto dep = std::find(deps.begin(), deps.end(), dependency);
+		if (dep == deps.end()) <div class = "Comment">// don't add depndency if it already exists</div>
+			deps.push_back(dependency);
+	}</div>
+
+	<div class = "Comment">// -----&lt; remove dependency function &gt;-------------------------------------</div>
+	void DependencyTable::removeDependency(file filename, file dependency)
+	<div class = "Function">{
+		<div class = "Comment">//LoggerDebug::write("\n  Removing dependency from " + filename + " to " + dependency);</div>
+		DependencyTable::dependencies & deps = table_[filename];
+		auto dep = std::find(deps.begin(), deps.end(), dependency);
+		if (dep != deps.end())
+			deps.erase(dep);
+	}</div>
+
+	<div class = "Comment">// -----&lt; remove entry - removes key/value pair from map &gt;-----------------</div>
+	void DependencyTable::removeEntry(file filename)
+	<div class = "Function">{
+		<div class = "Comment">//LoggerDebug::write("\n  Removing entry [" + filename + "] from dependency table");</div>
+		auto entry = table_.find(filename);
+		if (entry != table_.end())
+			table_.erase(entry);
+	}</div>
+
+	<div class = "Comment">// -----&lt; get key's dependencies &gt;-----------------------------------------</div>
+	const DependencyTable::dependencies & DependencyTable::getDependencies(file filename) const
+	<div class = "Function">{
+				return table_.at(filename);
+	}</div>
+
+	<div class = "Comment">// -----&lt; operator [] to provide easier access &gt;---------------------------</div>
+	const DependencyTable::dependencies & DependencyTable::operator[](const file & filename) const
+	<div class = "Function">{
+		return table_.at(filename);
+	}</div>
+
+	<div class = "Comment">// -----&lt; begin() iterator - allows for loop &gt;-----------------------------</div>
+	DependencyTable::iterator DependencyTable::begin()
+	<div class = "Function">{
+		return table_.begin();
+	}</div>
+
+	<div class = "Comment">// -----&lt; end() iterator - allows for loop &gt;-------------------------------</div>
+	DependencyTable::iterator DependencyTable::end()
+	<div class = "Function">{
+		return table_.end();
+	}</div>
+
+	<div class = "Comment">// -----&lt; get keys of map &gt;------------------------------------------------</div>
+	DependencyTable::files DependencyTable::getFiles() const
+	<div class = "Function">{
+		files list;
+		for (auto entry : table_)
+			list.push_back(entry.first);
+		return list;
+	}</div>
+
+	<div class = "Comment">// -----&lt; display entire table in formatted way &gt;--------------------------</div>
+	void DependencyTable::display()
+	<div class = "Function">{
+		std::ostringstream out;
+		std::cout &lt;&lt; "\n  Dependency table:";
+		for (auto entry : table_) {
+			std::cout &lt;&lt; "\n  -- " &lt;&lt; entry.first;
+			for (auto dep : entry.second)
+				std::cout &lt;&lt; "\n   -&gt; " &lt;&lt; dep;
+		}
+	}</div>
+
+}
+
+#ifdef TEST_DEBTABLE
+
+#include &lt;iostream&gt;
+
+<div class = "Comment">// ----&lt; test stub for dependency table package &gt;---------------------------</div>
+int main(int argc, char ** argv) <div class = "Function">{
+  LoggerDebug::attach(&std::cout);
+  LoggerDebug::start();
+
+  LoggerDebug::title("Testing DependencyTable Operations");
+
+  DependencyTable dt;
+  dt.addDependency("A.h", "B.h");
+  dt.addDependency("A.h", "C.h");
+  dt.addDependency("C.h", "B.h");
+  dt.addDependency("D.h", "B.h");
+  dt.addDependency("E.h", "A.h");
+  dt.addDependency("B.h", "E.h");
+  dt.addDependency("C.h", "E.h");
+  dt.addDependency("E.h", "E.h");
+  dt.removeDependency("E.h", "E.h");
+
+  dt.display();
+
+  LoggerDebug::stop();
+
+  return 0;
+
+}</div>
+
+
+    </pre>
+</body>
+</html>
+

@@ -1,0 +1,129 @@
+﻿<Window x:Class="WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="Project4 Client - Xiaoqian Huang" Height="750" Width="800" Loaded="window_Loaded">
+    <Grid>
+        <TabControl x:Name="TabItemControl">
+            <TabItem Header="Navigation" Height="40" Width="150">
+                <DockPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60"/>
+                            <!--0-->
+                            <ColumnDefinition Width="10"/>
+                            <!--1-->
+                            <ColumnDefinition Width="57*"/>
+                            <ColumnDefinition Width="167*"/>
+                            <!--2-->
+                            <ColumnDefinition Width="60"/>
+                            <!--3-->
+                            <ColumnDefinition Width="10"/>
+                            <!--4-->
+                            <ColumnDefinition Width="225*"/>
+                            <!--5-->
+                            <ColumnDefinition Width="100" />
+                            <!--6-->
+                            <ColumnDefinition Width="100" />
+                            <!--7-->
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="34"></RowDefinition>
+                            <!--0-->
+                            <RowDefinition Height="5"></RowDefinition>
+                            <!--1-->
+                            <RowDefinition Height="34"></RowDefinition>
+                            <!--2-->
+                            <RowDefinition Height="*"></RowDefinition>
+                            <!--3-->
+                            <RowDefinition Height="3"></RowDefinition>
+                            <!--3-->
+                            <RowDefinition Height="*"></RowDefinition>
+                            <!--4-->
+                            <RowDefinition Height="34"></RowDefinition>
+                            <!--5-->
+                            <RowDefinition Height="*"></RowDefinition>
+                            <!--6-->
+                            <RowDefinition Height="5"></RowDefinition>
+                            <!--7-->
+                            <RowDefinition Height="34"></RowDefinition>
+                            <!--8-->
+                        </Grid.RowDefinitions>
+                        <!--0-->
+                        <Label Grid.Row="0" Grid.Column="0" Content="Path:" VerticalAlignment="Center" Margin="0,4"></Label>
+                        <Label Width="20" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,0,47.379,0" ></Label>
+                        <TextBlock x:Name="CurrentPath" VerticalAlignment="Center" Grid.Column="2" Grid.ColumnSpan="6" Margin="0,9" >Please wait..</TextBlock>
+                        <Label Grid.Row="0" Grid.Column="8" Content="Sub-Dirs:" VerticalAlignment="Center" Margin="12,4,0,4"></Label>
+                        <CheckBox Name="Options" Grid.Row="0" Grid.Column="8" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,10,10,10"></CheckBox>
+                        <!--1-->
+                        <Separator Grid.Row="1" Grid.ColumnSpan="9"></Separator>
+                        <!--2-->
+                        <Label Grid.Row="2" Grid.Column="0"  Content="Patterns:" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,4" ></Label>
+                        <TextBox Grid.Row="2" Grid.Column="2" Name="Patterns" Height="30" VerticalAlignment="Center" Margin="0,1,59.5,3" VerticalContentAlignment="Center" Grid.ColumnSpan="3"></TextBox>
+                        <Label Grid.Row="2" Grid.Column="4"  Content="Regex:" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,4,0.5,4"></Label>
+                        <TextBox Grid.Row="2" Grid.Column="5" Name="Regex" Height="30" Grid.ColumnSpan="4" Margin="9.5,1,99,3" VerticalContentAlignment="Center"></TextBox>
+                        <Button Grid.Row="2" Grid.Column="8" Height="30" Width="80" Click="Navigate_Click"  VerticalAlignment="Bottom" Margin="10,0,10,3" >Navigate</Button>
+                        <!--3-->
+                        <ListBox Grid.Row="3" x:Name="SelectDir" Grid.ColumnSpan="9" MouseDoubleClick="SelectDir_MouseDoubleClick">
+                        </ListBox>
+                        <!--4-->
+                        <GridSplitter Grid.Row="4" HorizontalAlignment="Stretch" Grid.ColumnSpan="9"></GridSplitter>
+                        <!--5-->
+                        <ListBox Grid.Row="5" x:Name="Files" Grid.ColumnSpan="9"  SelectionMode="Single" SelectionChanged="Files_SelectionChanged" ></ListBox>
+                        <!--6-->
+                        <Label Grid.Row="6" Grid.Column="0"  Grid.ColumnSpan="4" Content="Convert List" VerticalAlignment="Center" Margin="0,4,0.5,4" ></Label>
+                        <Button Grid.Row="6" Grid.Column="7" Height="30" Width="80" Click="AddConvertFile_Click"  VerticalAlignment="Top" Margin="10,2,10,0" >Add To List</Button>
+                        <Button Grid.Row="6" Grid.Column="8" Height="30" Width="80" Click="CleanConvertFile_Click"  VerticalAlignment="Center" Margin="10,2" >Clear</Button>
+                        <!--7-->
+                        <ListBox Grid.Row="7" x:Name="ConvertList" Grid.ColumnSpan="9" Margin="0,0,0,4.5" Grid.RowSpan="2" ></ListBox>
+                        <!--8-->
+                        <Separator Grid.Row="8" Grid.ColumnSpan="9" Margin="0,2.5"></Separator>
+                        <!--9-->
+                        <Button Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="9" Margin="2,3.5,2,2.5" Click="Button_Click">Publish</Button>
+                    </Grid>
+                </DockPanel>
+            </TabItem>
+            <TabItem Width="150" x:Name="Tab2" MouseLeftButtonDown="MainWindowclick2_Click">
+                <TabItem.Header>
+                    <Label Content="Converted Files" 
+                           />
+                </TabItem.Header>
+                <DockPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="34"></RowDefinition>
+                            <RowDefinition Height="5"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="5"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <!--0-->
+                        <Label Grid.Row="0" Grid.Column="0" Content="Path:" VerticalAlignment="Center"></Label>
+                        <Label Width="20" Grid.Column="1" ></Label>
+                        <TextBlock x:Name="CurrentPath_" VerticalAlignment="Center" Grid.Column="2" Grid.ColumnSpan="5" >Please wait..</TextBlock>
+                        <Label Grid.Row="0" Grid.Column="3" Content="Only current converted list is display:" VerticalAlignment="Center" Margin="110,0,0,0"></Label>
+                        <CheckBox Name="FullConvertedFile" Grid.Row="0" Grid.Column="7" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" IsChecked="True" Click="DisplayFullList_Click"></CheckBox>
+                        <!--1-->
+                        <Separator Grid.Row="1" Grid.ColumnSpan="4"></Separator>
+                        <!--2-->
+                        <ListBox Grid.Row="2" x:Name="ConvertedList" Grid.ColumnSpan="4" SelectionMode="Single" SelectionChanged="ConvertedFiles_SelectionChanged"></ListBox>
+                        <!--3-->
+                        <Separator Grid.Row="3" Grid.ColumnSpan="4"></Separator>
+                        <!--4-->
+                        <Button Name="DownloadFile" Grid.Row="4" Grid.ColumnSpan="4" Margin="20,3,20,3" Click="DownloadFile_Click">DownLoad</Button>
+                    </Grid>
+                </DockPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+
+</Window>

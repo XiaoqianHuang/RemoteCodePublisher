@@ -1,0 +1,8 @@
+﻿  FileSystem.cpp
+  Translater.cpp
+  正在生成代码...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  FileSystem.obj :托管的代码存在时 /DEBUG:FASTLINK 不受支持；正在重新启动与 /DEBUG:FULL 的链接
+  FileSystem.obj : 遇到了 MSIL 模块；对 MSIL 禁用了增量链接；正在执行完全链接
+Utilities.lib(Utilities.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+  Translater.vcxproj -> C:\Users\hk\Desktop\Project4\Debug\Translater.dll

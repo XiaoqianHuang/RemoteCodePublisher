@@ -1,0 +1,17 @@
+﻿  pch.cpp
+  AbstrSynTree.cpp
+  Converter.cpp
+  Properties.cpp
+  DependencyTable.cpp
+  FileSystem.cpp
+  GrammarHelpers.cpp
+  Publisher.cpp
+  Logger.cpp
+  ActionsAndRules.cpp
+  ConfigureParser.cpp
+  Parser.cpp
+  Semi.cpp
+  Toker.cpp
+  Server.cpp
+  正在生成代码...
+  Server.vcxproj -> C:\Users\hk\Desktop\Project4\Debug\Server.exe

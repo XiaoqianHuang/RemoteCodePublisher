@@ -1,0 +1,178 @@
+\\Mac\Home\Desktop\Project3\Project3\WPF\bin\Debug\WPF.exe.config
+\\Mac\Home\Desktop\Project3\Project3\WPF\bin\Debug\WPF.exe
+\\Mac\Home\Desktop\Project3\Project3\WPF\bin\Debug\WPF.pdb
+\\Mac\Home\Desktop\Project3\Project3\WPF\bin\Debug\Translator.dll
+\\Mac\Home\Desktop\Project3\Project3\WPF\bin\Debug\Translator.pdb
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\WPF_MarkupCompile.cache
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\WPF_MarkupCompile.lref
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\WPF.g.resources
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\WPF.Properties.Resources.resources
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\WPF.csproj.CopyComplete
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\WPF.exe
+\\Mac\Home\Desktop\Project3\Project3\WPF\obj\Debug\WPF.pdb
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\MainWindow.g.cs
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\App.g.cs
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\WPF_MarkupCompile.cache
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\WPF_MarkupCompile.lref
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\MainWindow.baml
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\WPF.g.resources
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\WPF.Properties.Resources.resources
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\WPF.csproj.CopyComplete
+C:\Users\hk\Desktop\Project3\WPF\WPF.exe.config
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\WPF.exe
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\WPF.pdb
+C:\Users\hk\Desktop\Project3\WPF\WPF.exe
+C:\Users\hk\Desktop\Project3\WPF\WPF.pdb
+C:\Users\hk\Desktop\Project3\WPF\Translator.dll
+C:\Users\hk\Desktop\Project3\WPF\Translator.pdb
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\SourceCodeWindow.g.cs
+C:\Users\hk\Desktop\Project3\WPF\obj\Debug\SourceCodeWindow.baml
+G:\Project3\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+G:\Project3\WPF\obj\Debug\MainWindow.g.cs
+G:\Project3\WPF\obj\Debug\SourceCodeWindow.g.cs
+G:\Project3\WPF\obj\Debug\App.g.cs
+G:\Project3\WPF\obj\Debug\WPF_MarkupCompile.cache
+G:\Project3\WPF\obj\Debug\WPF_MarkupCompile.lref
+G:\Project3\WPF\obj\Debug\MainWindow.baml
+G:\Project3\WPF\obj\Debug\SourceCodeWindow.baml
+G:\Project3\WPF\obj\Debug\WPF.g.resources
+G:\Project3\WPF\obj\Debug\WPF.Properties.Resources.resources
+G:\Project3\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+G:\Project3\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+G:\Project3\WPF\obj\Debug\WPF.csproj.CopyComplete
+G:\Project3\WPF\WPF.exe.config
+G:\Project3\WPF\obj\Debug\WPF.exe
+G:\Project3\WPF\obj\Debug\WPF.pdb
+G:\Project3\WPF\WPF.exe
+G:\Project3\WPF\WPF.pdb
+G:\Project3\WPF\Translator.dll
+G:\Project3\WPF\Translator.pdb
+C:\OODGrading\Project3\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+C:\OODGrading\Project3\WPF\obj\Debug\MainWindow.g.cs
+C:\OODGrading\Project3\WPF\obj\Debug\SourceCodeWindow.g.cs
+C:\OODGrading\Project3\WPF\obj\Debug\App.g.cs
+C:\OODGrading\Project3\WPF\obj\Debug\WPF_MarkupCompile.cache
+C:\OODGrading\Project3\WPF\obj\Debug\WPF_MarkupCompile.lref
+C:\OODGrading\Project3\WPF\obj\Debug\WPF.exe
+C:\OODGrading\Project3\WPF\obj\Debug\WPF.pdb
+C:\OODGrading\Project3\WPF\obj\Debug\MainWindow.baml
+C:\OODGrading\Project3\WPF\obj\Debug\SourceCodeWindow.baml
+C:\OODGrading\Project3\WPF\obj\Debug\WPF.g.resources
+C:\OODGrading\Project3\WPF\obj\Debug\WPF.Properties.Resources.resources
+C:\OODGrading\Project3\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+C:\OODGrading\Project3\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+C:\OODGrading\Project3\WPF\obj\Debug\WPF.csproj.CopyComplete
+C:\OODGrading\Project3\WPF\WPF.exe.config
+C:\OODGrading\Project3\WPF\WPF.exe
+C:\OODGrading\Project3\WPF\WPF.pdb
+C:\OODGrading\Project3\WPF\Translator.dll
+C:\OODGrading\Project3\WPF\Translator.pdb
+D:\Project3\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+D:\Project3\WPF\obj\Debug\MainWindow.g.cs
+D:\Project3\WPF\obj\Debug\SourceCodeWindow.g.cs
+D:\Project3\WPF\obj\Debug\App.g.cs
+D:\Project3\WPF\obj\Debug\WPF_MarkupCompile.cache
+D:\Project3\WPF\obj\Debug\WPF_MarkupCompile.lref
+D:\Project3\WPF\obj\Debug\MainWindow.baml
+D:\Project3\WPF\obj\Debug\SourceCodeWindow.baml
+D:\Project3\WPF\obj\Debug\WPF.g.resources
+D:\Project3\WPF\obj\Debug\WPF.Properties.Resources.resources
+D:\Project3\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+D:\Project3\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+D:\Project3\WPF\obj\Debug\WPF.csproj.CopyComplete
+D:\Project3\WPF\WPF.exe.config
+D:\Project3\WPF\obj\Debug\WPF.exe
+D:\Project3\WPF\obj\Debug\WPF.pdb
+D:\Project3\WPF\WPF.exe
+D:\Project3\WPF\WPF.pdb
+D:\Project3\WPF\Translator.dll
+D:\Project3\WPF\Translator.pdb
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\SourceCodeWindow.g.cs
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\WPF_MarkupCompile.cache
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\WPF_MarkupCompile.lref
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\SourceCodeWindow.baml
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\WPF.g.resources
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\WPF.Properties.Resources.resources
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\WPF.csproj.CopyComplete
+\\Mac\Home\Desktop\备份1\Project3\WPF\WPF.exe.config
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\WPF.exe
+\\Mac\Home\Desktop\备份1\Project3\WPF\obj\Debug\WPF.pdb
+\\Mac\Home\Desktop\备份1\Project3\WPF\WPF.exe
+\\Mac\Home\Desktop\备份1\Project3\WPF\WPF.pdb
+\\Mac\Home\Desktop\备份1\Project3\WPF\Translator.dll
+\\Mac\Home\Desktop\备份1\Project3\WPF\Translator.pdb
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\SourceCodeWindow.g.cs
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\WPF_MarkupCompile.cache
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\WPF_MarkupCompile.lref
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\WPF.exe
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\WPF.pdb
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\SourceCodeWindow.baml
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\WPF.g.resources
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\WPF.Properties.Resources.resources
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Project4\Project4\WPF\obj\Debug\WPF.csproj.CopyComplete
+\\Mac\Home\Desktop\Project4\Project4\WPF\WPF.exe.config
+\\Mac\Home\Desktop\Project4\Project4\WPF\WPF.exe
+\\Mac\Home\Desktop\Project4\Project4\WPF\WPF.pdb
+\\Mac\Home\Desktop\Project4\Project4\WPF\Translater.dll
+\\Mac\Home\Desktop\Project4\Project4\WPF\Translater.pdb
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\SourceCodeWindow.g.cs
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\WPF_MarkupCompile.cache
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\WPF_MarkupCompile.lref
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\SourceCodeWindow.baml
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\WPF.g.resources
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\WPF.Properties.Resources.resources
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\WPF.csproj.CopyComplete
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\WPF.exe.config
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\WPF.exe
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\obj\Debug\WPF.pdb
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\WPF.exe
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\WPF.pdb
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\Translater.dll
+\\Mac\Home\Desktop\Project4\Project4 - Copy (2)\WPF\Translater.pdb
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\WPF.csprojAssemblyReference.cache
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\MainWindow.g.cs
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\SourceCodeWindow.g.cs
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\App.g.cs
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\WPF_MarkupCompile.cache
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\WPF_MarkupCompile.lref
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\MainWindow.baml
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\SourceCodeWindow.baml
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\WPF.g.resources
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\WPF.Properties.Resources.resources
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\WPF.csproj.CopyComplete
+C:\Users\hk\Desktop\Project4\WPF\WPF.exe.config
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\WPF.exe
+C:\Users\hk\Desktop\Project4\WPF\obj\Debug\WPF.pdb
+C:\Users\hk\Desktop\Project4\WPF\WPF.exe
+C:\Users\hk\Desktop\Project4\WPF\WPF.pdb
+C:\Users\hk\Desktop\Project4\WPF\Translater.dll
+C:\Users\hk\Desktop\Project4\WPF\Translater.pdb

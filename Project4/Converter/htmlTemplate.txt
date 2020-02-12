@@ -1,0 +1,16 @@
+<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="JS+CSS/CSSsheet.css" />
+    <script src="JS+CSS/ToggleHidden.js"></script>
+</head>
+<body>
+    <h3>Project #4 Display</h3>
+    <div class="button">
+        <button id="CommentButton" onclick="ToggleHidden('Comment')" style="color:green;">Hide Comment</button>
+        <button id="ClassButton" onclick="ToggleHidden('Class')" style="color:royalblue;">Hide Class</button>
+        <button id="FunctionButton" onclick="ToggleHidden('Function')" style="color:mediumslateblue;">Hide Function</button>
+    </div>
+	
+  </body>
+</html>

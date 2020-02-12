@@ -1,0 +1,97 @@
+<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="JS+CSS/CSSsheet.css" />
+    <script src="JS+CSS/ToggleHidden.js"></script>
+</head>
+<body>
+    <h3>Project #4 Display</h3>
+    <div class="button">
+        <button id="CommentButton" onclick="ToggleHidden('Comment')" style="color:green;">Hide Comment</button>
+        <button id="ClassButton" onclick="ToggleHidden('Class')" style="color:royalblue;">Hide Class</button>
+        <button id="FunctionButton" onclick="ToggleHidden('Function')" style="color:mediumslateblue;">Hide Function</button>
+    </div>
+	
+      <h4>
+        Dependency Link: None
+    </h4>
+    <pre>
+#pragma once
+<div class = "Comment">///////////////////////////////////////////////////////////////////////////</div>
+<div class = "Comment">// DependencyTable.h : defines dependency table structure                //</div>
+<div class = "Comment">// ver 1.0                                                               //</div>
+<div class = "Comment">//                                                                       // </div>
+<div class = "Comment">// Application   : OOD-S19 Instructor Solution                           //</div>
+<div class = "Comment">// Platform      : Visual Studio Community 2017, Windows 10 Pro x64      //</div>
+<div class = "Comment">// Author        : Ammar Salman, Syracuse University                     //</div>
+<div class = "Comment">//                 313/788-4694, assalman@syr.edu                        //</div>
+<div class = "Comment">///////////////////////////////////////////////////////////////////////////</div>
+<div class = "Comment">/*
+*  Package Operations:
+* =======================
+*  This package defines DependencyTable class which is used to hold files
+*  relationships after dependency analysis is performed. It is simply a
+*  wrapper around std::unordered_map which uses string key and vector
+*  value. Therefore, every file in the analysis will point to a vector
+*  of all the files it depends upon. 
+*
+*
+*  Required Files:
+* =======================
+*  DependencyTable.h DependencyTable.cpp Logger.h Logger.cpp
+*
+*  Maintainence History:
+* =======================
+*  ver 1.0 - 11 Feb 2019
+*  - first release
+*/</div>
+
+#include &lt;unordered_map&gt;
+#include &lt;string&gt;
+#include &lt;vector&gt;
+
+namespace Convert {
+
+	class DependencyTable
+	<div class = "Class">{
+	public:
+		using file = std::string;
+		using files = std::vector&lt;file&gt;;
+		using dependencies = std::vector&lt;file&gt;;
+		using iterator = std::unordered_map&lt;file, dependencies&gt;::iterator;
+
+
+		DependencyTable();
+		DependencyTable(const files& list);
+		~DependencyTable();
+
+		bool has(const std::string& file);
+
+		void addDependency(file filename, file dependency);
+		void removeDependency(file filename, file dependency);
+
+		void removeEntry(file filename);
+
+		const dependencies& getDependencies(file filename) const;
+		const dependencies& operator[](const file& filename) const;
+
+		<div class = "Comment">// these two functions allow 'for' loops in the form of</div>
+		<div class = "Comment">// for(auto entry : dt) {...}</div>
+		iterator begin();
+		iterator end();
+		void clear() <div class = "Function">{ table_.clear(); }</div>
+
+		files getFiles() const;
+
+		void display();
+
+	private:
+		std::unordered_map&lt;file, dependencies&gt; table_;
+	};</div>
+
+
+
+    </pre>
+</body>
+</html>
+

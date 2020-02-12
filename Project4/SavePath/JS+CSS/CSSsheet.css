@@ -1,0 +1,30 @@
+body{
+  padding: 15px 40px;
+  font-family: Consolas;
+  font-size: 1.25em;
+  font-weight: normal;	
+  float: none;
+}
+
+.button{
+  position:fixed;
+  top:50px;
+  right:100px;
+}
+
+.Comment{
+  color:green;
+}
+
+.Function{
+  color:mediumslateblue;
+}
+
+.Class{
+  color:royalblue;
+}
+
+div
+{ 
+  display:inline;
+} 
